@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CheckUniqueChars {
 	private static Scanner scanner;
-
+	//this method can only be used in the situation that all the characters are alphabet.
 	boolean checkUniqueChars(String string){
 		int check = 0;
 		for (int i = 0; i < string.length(); i++) {
