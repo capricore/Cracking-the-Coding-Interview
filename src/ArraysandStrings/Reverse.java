@@ -15,6 +15,7 @@ public class Reverse {
 	}
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		String string = scanner.next();
 		System.out.println(new Reverse().reverse(string));
