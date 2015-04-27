@@ -15,6 +15,14 @@ class Node{
 		}
 		n.next = end;
 	}
+	
+	void appendToTail(Node node){
+		Node n = this;
+		while (n.next != null) {
+			n = n.next;
+		}
+		n.next = node;
+	}
 }
 
 public class KthToLast {
