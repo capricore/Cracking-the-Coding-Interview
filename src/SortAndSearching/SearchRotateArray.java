@@ -24,7 +24,7 @@ public class SearchRotateArray {
 		}else if(array[middle] == array[left]){
 			if (array[middle] != array[right]) {
 				return search(array, middle+1, right, x);
-			}else {
+			}else { 
 				int result = search(array, left, middle-1, x);
 				if (result == -1) {
 					return search(array, middle+1, right, x);
